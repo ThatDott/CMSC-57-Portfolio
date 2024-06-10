@@ -1,11 +1,14 @@
 header {
     width: 100%;
     height: 4vh;
+    margin-bottom: -4vh;
     padding: 10px 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
 }
 .nav {
     display: flex;
@@ -13,6 +16,7 @@ header {
     margin: 0;
     padding: 0;
     z-index: 3;
+    margin-left: auto;
 }
 
 .nav li {
@@ -29,8 +33,21 @@ header {
 }
 #logo {
     margin-left: 5vw;
+    margin-right: auto;
 }
 
 .pageTitle {
+    display: flex;
     color:green;
+    align-items: center;
+}
+
+.pageTitle a{
+    text-decoration:none;
+    margin: 30px;
+    font-size: 20px;
+    z-index: 2;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 4px rgb(0, 255, 0);
 }

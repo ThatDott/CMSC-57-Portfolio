@@ -17,44 +17,65 @@
 <body>
     <header>
         <h4 id="logo">ThatDot</h4>
-        <h2 class="pageTitle">UNIT 1.3: Permutations and Combinations</h2>
+        <div class="pageTitle">
+            <a href="unit1.2.html"><</a>
+            <h2 class="pageTitle">Unit 1.3: Permutations and Combinations</h2>
+            <a href="unit2.1.html">></a>
+        </div>
         <ul class="nav">
             <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255)"><path d="m21.743 12.331-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 0 0 .743-1.669z"></path></svg></a></li>
-            <li><a href="about.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255)"><path d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"></path></svg></a></li>
         </ul>
     </header>
     <div class="container">
         <section id="title">
-                <h1>UNIT 1.3: Permutations and Combinations</h1>
-                <p>Scroll Down</p>
-                <div class="arrow">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-        </section>
-        <section id="table">
-            <div class="grid1">
-                <h2 class="topic">Learnings</h2>
-                <p class="p1">
-                    Finite probability deals with the likelihood of events occurring within a finite sample space, helping us understand the chances of different outcomes within a defined set of possibilities. It simplifies the concept of probability by focusing on a limited number of outcomes, making it easier to calculate and comprehend.
-                </p>
+            <h1>UNIT 1.3: Permutations and Combinations</h1>
+            <p>Scroll Down</p>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </section>
-        <section id="table">
-            <div class="grid1">
-                <h2 class="topic">Reflection</h2>
-                <p class="p1">
-                    Finite probability aids in grasping the concept of chance within a limited set of options, helping us assess the likelihood of specific events. By focusing on a restricted number of possibilities, it allows us to simulate or visualize events clearly, making it easier to understand and predict outcomes. For instance, in a card game with a standard deck, finite probability helps us calculate the chances of drawing a specific card, like the Ace of Spades.
-                </p>
-            </div>
+        <section id="default">
+            <h2>Permutations and Combinations</h2>
+            <p>Permutations involve arranging items in a specific order, while combinations involve selecting items without regard to order. Understanding the difference between permutation and combination is crucial. This distinction helps approach counting problems with clarity and precision.</p>
+            <img src="img/diagram13.png" class="diagram">
         </section>
-        <section id="table">
-            <div class="grid1">
-                <h2 class="topic">Application</h2>
-                <p class="p1">
-                    Finite probability is applied in various fields, from predicting game outcomes to assessing risks in financial investments. Understanding finite probability allows for educated guesses and better decision-making in uncertain environments.                </p>
-            </div>
+        <section id="default">
+            <h2>Permutations</h2>
+            <p>Permutation refers to the arrangement of items in a specific order. The order of arrangement is crucial.
+                <br><br>
+                P(n, r) = n! / (n-r)!
+                <br><br>
+                Example: How many different ways can Iron Man, Captain America, Thor, Black Widow, and Hulk be arranged in a line for a photo?
+                <br><br>
+                = 5! / (5 - 3)!
+                <br>
+                = 120 / 2 = 60 ways
+            </p>
+        </section>
+        <section id="default">
+            <h2>Combinations</h2>
+            <p>Combination refers to the selection of items where the order does not matter.
+                <br><br>
+                C(n,r) = n! / [r! x (n-r)!]
+                <br><br>
+                Example: The Avengers team needs to send 3 superheroes on a mission. How many ways can they choose 3 superheroes from Iron Man, Captain America, Thor, Black Widow, and Hulk?
+                <br><br>
+                = 5! / [3! x (5 - 3)!]
+                <br>
+                = 120 / [6 x 2]
+                <br>
+                = 120 / 12 = 10 ways
+            </p>
+        </section>
+        <section class="ref" id="default">
+            <h2 class="topic">Reflection and Application</h2>
+            <p>
+                Knowing the difference between permutations and combinations helps in solving different types of counting problems accurately and efficiently. These methods are vital in combinatorics as these simplify the counting of outcomes that reach very large numbers. This eases the solving process and makes it an efficient method to be used.
+                <br><br>
+                Applications:
+                These concepts are applied in numerous real-life scenarios. For instance, permutations are used for arranging seats at an event, while combinations are used for selecting a committee from a group. By understanding these principles, we can solve counting problems accurately and find practical solutions.            </p>
         </section>
     </div>
 </body>
